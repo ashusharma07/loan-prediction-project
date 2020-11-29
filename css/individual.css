@@ -1,0 +1,28 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../indivisual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    border: 0;
+    
+}
+.header img
+{
+    width: 170px;
+    float: left;
+    
+    border-radius: 12px;
+    height: 90px;
+
+
+}
