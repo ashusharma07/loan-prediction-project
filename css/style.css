@@ -10401,7 +10401,8 @@ transition: all 0.3s ease 0s;
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid var(--yellow);
+  border-bottom: 0.25rem solid var(--yellow) ;
+
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -10414,10 +10415,13 @@ transition: all 0.3s ease 0s;
   border-color: var(--yellow);
   border-width: 0.25rem;
   width: 3rem;
+  margin-left: 42%;
+  
 }
 
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 7rem;
+  
 }
 .contact-section .social a {
   text-align: center;
@@ -10427,6 +10431,7 @@ transition: all 0.3s ease 0s;
   border-radius: 100%;
   line-height: 3rem;
   color: var(--yellow);
+  
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
@@ -10436,7 +10441,7 @@ transition: all 0.3s ease 0s;
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 *
 {
@@ -10446,7 +10451,7 @@ transition: all 0.3s ease 0s;
 .header
 {
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../indivisual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/individual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -10590,10 +10595,22 @@ h1{
 }
 
 .md-form input[type=text]:focus{
-  box-shadow: 0 1px 0 0 var(--yellow) !important;
-  border-bottom: 1px solid var(--yellow) !important;
+  box-shadow: 0 1px 0 0 blue !important;
+  border-bottom: 1px solid blue !important;
+  color: white;
+  
+}
+.md-form input[type=number]:focus{
+  box-shadow: 0 1px 0 0 blue !important;
+  border-bottom: 1px solid blue !important;
+  color: white;
   
 }
 .md-form label{
 color: var(--yellow) !important; 
+font-weight: bold !important;
 }
+.mySelect{
+  -webkit-appearance: button !important;
+}
+
