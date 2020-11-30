@@ -10451,7 +10451,7 @@ transition: all 0.3s ease 0s;
 .header
 {
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/individual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/loan-prediction-project/individual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
