@@ -1,0 +1,270 @@
+<html>
+<head>
+    <title>Joint loan Approval </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="https://www.flaticon.com/svg/static/icons/svg/3104/3104993.svg"/>
+    <meta name="viewport" content="width=device-width" ,initial-scale=1.0 >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light z-depth-0">
+			<a class="navbar-brand ml-5 mt-4" href="../index.html"><img src="https://www.flaticon.com/svg/static/icons/svg/3104/3104993.svg"></a>
+			<button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+			  aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+			  <div class="animated-icon1"><span></span><span></span><span></span></div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent22">
+			  <ul class="navbar-nav ml-auto pr-2">
+				<li class="nav-item px-4 ">
+				  <a class="nav-link text-white" href="../index.html">Home
+					<span class="sr-only">(current)</span>
+				  </a>
+				</li>
+				
+				
+				<li class="nav-item px-4">
+				  <a class="nav-link text-white js-scroll-trigger " href="#contact">Contact</a>
+				</li>
+				
+			  </ul>
+			</div>
+          </nav>
+          <div class="container">            
+              <h1 class="text-center p-2 amber-text text-uppercase">Joint Loan Approval Prediction</h1>
+          </div>
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <p class="h3 p-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quisquam repellendus mollitia est perferendis quam molestiae, enim nostrum a numquam, 
+                        aliquid quod soluta repellat facilis consectetur similique nihil! Quod, ipsum in!</p>
+                </div>
+                <div class="col-md-6 p-4 text-center mt-5 p-5">
+                        <a class="btn btn-lg peach-gradient js-scroll-trigger" href="#predict">Predict</a>
+                </div>
+              </div>
+          </div>
+          
+    </section>
+    <section class="feature elegant-color color-block" id = "predict">
+        <h1 class="text-white text-uppercase font-weight-lighter">Enter the details </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    
+                   <!-- <div class="md-form">
+                        <input type="number" minlength="3" maxlength="3" min="300" max="999" id="form1" class="form-control">
+                        <label for="form1">CIBIL Score</label>
+                      </div>-->
+                      <div class="d-flex justify-content-center my-4">
+                        <span class="font-weight-bold amber-text ml-2">CIBIL Score1</span>
+                        <br>
+                        <div class="w-75">
+                          <input type="range" class="custom-range" id="cibil_score" min="300" max="999">
+                        </div>
+                        <span class="font-weight-bold text-white ml-2 cibil_score_span"></span>
+                      </div>
+
+                      <div class="d-flex justify-content-center my-4">
+                        <span class="font-weight-bold amber-text ml-2">CIBIL Score2</span>
+                        <br>
+                        <div class="w-75">
+                          <input type="range" class="custom-range" id="cibil_score2" min="300" max="999">
+                        </div>
+                        <span class="font-weight-bold text-white ml-2 cibil_score2_span"></span>
+                      </div>
+                    
+                      
+                      <p class="font-weight-bold ml-5 p-0 amber-text">No of Mortgage Account</p>
+                      <div class="d-flex justify-content-center my-4">
+                        <div class="w-75">
+                          <input type="range" class="custom-range mb-2" id="mortAcc" min="0" max="10">
+                        </div>
+                        <span class="font-weight-bold text-white ml-2 mort-acc-range"></span>
+                      </div>
+                   
+                      
+                      <div class="md-form">
+                        <input type="number" id="form1" class="form-control">
+                        <label for="form1">Term (in Months)</label>
+                      </div>
+                      
+                      
+                      </div>
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <input type="number" id="form1" class="form-control">
+                        <label for="form1">Current Debt to Income Ratio</label>
+                      </div>
+                
+                      <select class="browser-default custom-select amber-text elegant-color mySelect">
+                        <option selected>Home Ownership</option>
+                        <option value="1">Mortgage</option>
+                        <option value="2">Own</option>
+                        <option value="3">Rent</option>
+                        <option value="4">None</option>
+                        <option value="5">Other</option>
+                        <option value="6">Any</option>
+                      </select>
+                    
+                      
+                      <div class="md-form">
+                        <input type="number" id="form1" class="form-control">
+                        <label for="form1">Annual Income</label>
+                      </div>
+                      <div class="md-form">
+                        <input type="number" id="form1" class="form-control">
+                        <label for="form1">Annual Income 2</label>
+                      </div>
+                      </div>
+                      
+
+                <div class="col-md-4">
+                    <div class="md-form">
+                        <input type="number" id="form1" class="form-control">
+                        <label for="form1">Credit Enq. in  last six months</label>
+                      </div>
+                                                            
+                      <div class="md-form">
+                        <input type="number" id="form1" class="form-control">
+                        <label for="form1">Loan Amount</label>
+                      </div>
+                      
+                      <div class="md-form">
+                        <input type="number" id="form1" class="form-control amber-text">
+                        <label for="form1"> Credit used relative to all available revolving credit</label>
+                      </div>
+                   
+                    <div class="md-form">
+                        <input type="number" id="form1" class="form-control amber-text">
+                        <label for="form1"> Current Balance Owed on installement Account</label>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row col-btn pt-5 mt-2">
+
+                    <button type="submit" class="btn btn-lg btn-outline-warning waves-effect">Predict</button>
+                    </div>
+                   
+    </section>
+    <section class="contact-section " id="contact">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <div class="card py-4 h-100">
+                      <div class="card-body text-center">
+                          <i class="fas fa-map-marked-alt text-black mb-2"></i>
+                          <h4 class="text-uppercase amber-text m-0">Address</h4>
+                          <hr class="my-4" />
+                          <div class="small text-black-50">GIET University,Gobriguda</div>
+                          <div class="small text-black-50">Gunupur</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <div class="card py-4 h-100">
+                      <div class="card-body text-center">
+                          <i class="fas fa-envelope text-black mb-2"></i>
+                          <h4 class="text-uppercase amber-text m-0">Email</h4>
+                          <hr class="my-4" />
+                          <div class="small text-black-50"><a class='text-black-50' href="#!">enquiry@giet.edu</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <div class="card py-4 h-100">
+                      <div class="card-body text-center">
+                          <i class="fas fa-mobile-alt text-black mb-2"></i>
+                          <h4 class="text-uppercase amber-text m-0">Phone</h4>
+                          <hr class="my-4" />
+                          <div class="small text-black-50">+ 91 (637) 023-1308</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="social d-flex justify-content-center">
+              <a class="mx-2 p-3" href="#!"><i class="fab fa-linkedin"></i></a>
+              <a class="mx-2 p-3" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="mx-2 p-3" href="#!"><i class="fab fa-kaggle"></i></a>
+              <a class="mx-2 p-3" href="#!"><i class="fab fa-github"></i></a>
+          </div>
+      </div>
+  </section>
+  <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Lending Rupee 2020</div></footer>
+    
+       
+       
+    
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+<script src="../js/scripts.js"></script>
+<script>
+   $(document).ready(function () {
+
+$('.first-button').on('click', function () {
+
+  $('.animated-icon1').toggleClass('open');
+});
+});
+  $(document).ready(function() {
+
+const $cibil_value2 = $('.cibil_score2_span');
+const $cibil2 = $('#cibil_score2');
+$cibil_value2.html($cibil2.val());
+$cibil2.on('input change', () => {
+
+  $cibil_value2.html($cibil2.val());
+});
+});
+$(document).ready(function() {
+
+const $cibil_value = $('.cibil_score_span');
+const $cibil = $('#cibil_score');
+$cibil_value.html($cibil.val());
+$cibil.on('input change', () => {
+
+  $cibil_value.html($cibil.val());
+});
+});
+$(document).ready(function() {
+
+const $mort = $('.mort-acc-range');
+const $mort_acc = $('#mortAcc');
+$mort.html($mort_acc.val());
+$mort_acc.on('input change', () => {
+
+  $mort.html($mort_acc.val());
+});
+});
+$(document).ready(function() {
+const $tot_cred = $('.total-cred-range');
+const $total_cred = $('#total-cred');
+$tot_cred.html($total_cred.val());
+$total_cred.on('input change', () => {
+
+  $tot_cred.html($total_cred.val());
+});
+});
+
+</script>
+
+</body>
