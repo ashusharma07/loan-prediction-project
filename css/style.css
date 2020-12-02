@@ -10449,7 +10449,6 @@ transition: all 0.3s ease 0s;
 .header
 {
     height: 96vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/loan-prediction-project/individual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -10457,6 +10456,10 @@ transition: all 0.3s ease 0s;
     text-align: center;
     color: white;
     border: 0;    
+}
+
+.individual-header{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/loan-prediction-project/individual/img/fabian-blank-pElSkGRA2NU-unsplash.jpg);
 }
 
 .joint-header
